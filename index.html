@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encantados Fios - Amigurumis Artesanais Únicos e Encantadores</title>
+    <meta name="description" content="Amigurumis feitos à mão com carinho e magia. Peças artesanais, únicas e encantadoras para presentear ou colecionar.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Encantados Fios</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#catalogo" class="nav-link">Catálogo</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-decorations">
+            <span class="star star-1">✦</span>
+            <span class="star star-2">✦</span>
+            <span class="star star-3">✦</span>
+            <span class="star star-4">✦</span>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Amigurumis feitos<br>
+                    <span class="highlight">com magia</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Artesanais, únicos e encantadores.
+                </p>
+                <a href="#catalogo" class="btn btn-primary">Ver Catálogo</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1753370241593-9cc8c17d7434" alt="Amigurumis artesanais" class="main-hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Sobre a Loja</h2>
+                <p class="about-text">
+                    Cada peça é feita à mão com carinho, cuidado e um toque de magia. 
+                    A <strong>Encantados Fios</strong> cria amigurumis e chaveiros únicos, 
+                    perfeitos para presentear ou colecionar.
+                </p>
+                <p class="about-text">
+                    Trabalhamos com fios de alta qualidade e técnicas de crochê artesanal, 
+                    garantindo produtos duráveis e repletos de personalidade.
+                </p>
+                <div class="features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </div>
+                        <h3>Feito com Amor</h3>
+                        <p>Cada ponto é dado com carinho e dedicação</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3>100% Artesanal</h3>
+                        <p>Produtos únicos feitos à mão</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3>Qualidade Premium</h3>
+                        <p>Fios de alta qualidade e acabamento perfeito</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section id="catalogo" class="catalog">
+        <div class="container">
+            <h2 class="section-title">Nosso Catálogo</h2>
+            <p class="section-subtitle">Explore nossa coleção de amigurumis encantadores</p>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1753370474663-1b0ad622c5fc" alt="Coelho de crochê">
+                        <div class="gallery-overlay">
+                            <button class="btn-order" onclick="orderWhatsApp('Coelho Fofo')">Fazer Encomenda</button>
+                        </div>
+                    </div>
+                    <h3>Coelho Fofo</h3>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1626241803094-88edd8ae6453" alt="Ursinho de crochê">
+                        <div class="gallery-overlay">
+                            <button class="btn-order" onclick="orderWhatsApp('Ursinho Carinhoso')">Fazer Encomenda</button>
+                        </div>
+                    </div>
+                    <h3>Ursinho Carinhoso</h3>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1763055791902-7e13aef5e77c" alt="Bonequinha de crochê">
+                        <div class="gallery-overlay">
+                            <button class="btn-order" onclick="orderWhatsApp('Bonequinha Encantada')">Fazer Encomenda</button>
+                        </div>
+                    </div>
+                    <h3>Bonequinha Encantada</h3>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1629019317873-3f603b269723" alt="Coelhinho cinza">
+                        <div class="gallery-overlay">
+                            <button class="btn-order" onclick="orderWhatsApp('Coelhinho Cinza')">Fazer Encomenda</button>
+                        </div>
+                    </div>
+                    <h3>Coelhinho Cinza</h3>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1627693685101-687bf0eb1222" alt="Ursinho amarelo">
+                        <div class="gallery-overlay">
+                            <button class="btn-order" onclick="orderWhatsApp('Ursinho Solar')">Fazer Encomenda</button>
+                        </div>
+                    </div>
+                    <h3>Ursinho Solar</h3>
+                </div>
+                
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="https://images.unsplash.com/photo-1686151271777-12efa81f65e0" alt="Kit amigurumis">
+                        <div class="gallery-overlay">
+                            <button class="btn-order" onclick="orderWhatsApp('Kit Trio Amigos')">Fazer Encomenda</button>
+                        </div>
+                    </div>
+                    <h3>Kit Trio Amigos</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Fazer Encomenda</h2>
+            <p class="section-subtitle">Entre em contato para encomendar seu amigurumi especial</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Formas de Contato</h3>
+                    <p>Escolha a forma mais conveniente para você:</p>
+                    
+                    <div class="contact-methods">
+                        <button class="btn btn-whatsapp" onclick="openWhatsApp()">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                            </svg>
+                            WhatsApp
+                        </button>
+                        <p class="method-description">Resposta rápida e direta</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Seu Nome</label>
+                            <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Seu Email</label>
+                            <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="product">Produto de Interesse</label>
+                            <input type="text" id="product" name="product" placeholder="Ex: Coelho Fofo, Ursinho, etc.">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Descreva seu pedido ou dúvida"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="#" class="whatsapp-float" onclick="openWhatsApp(); return false;" title="Fale conosco no WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Encantados Fios. Todos os direitos reservados.</p>
+            <p>Amigurumis artesanais feitos com amor e dedicação.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
