@@ -35,16 +35,16 @@ window.addEventListener('scroll', () => {
 });
 
 // WhatsApp Functions
-const WHATSAPP_NUMBER = '5511999999999'; // IMPORTANTE: Substituir pelo número real (formato: código do país + DDD + número)
+const WHATSAPP_NUMBER = '553784126683'; 
 
 function openWhatsApp() {
     const message = encodeURIComponent('Olá! Gostaria de fazer uma encomenda de amigurumi.');
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
+    window.open(`https://wa.me/${553784126683}?text=${message}`, '_blank');
 }
 
 function orderWhatsApp(productName) {
     const message = encodeURIComponent(`Olá! Gostaria de encomendar: ${productName}`);
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
+    window.open(`https://wa.me/${553784126683}?text=${message}`, '_blank');
 }
 
 // Contact Form Email Submission
