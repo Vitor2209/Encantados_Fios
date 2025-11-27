@@ -71,7 +71,7 @@ contactForm.addEventListener('submit', async (e) => {
     );
     
     // IMPORTANTE: Substituir pelo email real da loja
-    const emailDestination = 'contato@encantadosfios.com';
+    const emailDestination = 'fios.encantadosamigurumi@gmail.com';
     
     // Abrir cliente de email padrão
     window.location.href = `mailto:${emailDestination}?subject=${emailSubject}&body=${emailBody}`;
