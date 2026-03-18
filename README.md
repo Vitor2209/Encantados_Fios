@@ -1,84 +1,113 @@
-🧶 Encantados_Fios — Loja de Crochê Artesanal
+# 💖 Encantados Fios — Social Project Website
 
-Bem-vindo ao repositório da Encantados_Fios, uma loja artesanal dedicada à criação de peças exclusivas de crochê feitas à mão pela artesã Vitória.
-O projeto foi desenvolvido utilizando HTML, CSS e JavaScript puro, garantindo leveza, eficiência e fácil manutenção.
+🚀 A modern and responsive website designed to present a social initiative focused on helping people and spreading solidarity.
 
-✨ Destaques do Projeto
+This project represents a **real impact solution**, combining technology with purpose.
 
-Vitrine Artesanal Encantadora: layout elegante que valoriza as cores, texturas e detalhes das peças.
+---
 
-Front-End Puro: sem frameworks — apenas código limpo e otimizado.
+## 🌍 Live Demo
 
-Catálogo Interativo: exibição dinâmica dos produtos via JavaScript.
+🔗 https://bitstreamsystemsppp.github.io/Encantados_Fios/
 
-Pedidos via WhatsApp: atendimento direto, rápido e personalizado com a Vitória.
+---
 
-Design Responsivo: navegação perfeita em celulares, tablets e desktops.
+## 💡 About the Project
 
-🛠️ Tecnologias Utilizadas
-Tecnologia	Finalidade
-HTML5	Estrutura semântica e organizada do site
-CSS3	Estilização, responsividade e identidade visual artesanal
-JavaScript (Vanilla)	Lógica do catálogo, interação e integração com WhatsApp
-🚀 Como Visualizar o Projeto
+This website was created to represent a **social initiative**, focused on helping people and sharing meaningful work.
 
-Clone o repositório:
+Main focus:
 
-git clone https://github.com/usuario/repositorio.git
+💖 Clear mission presentation  
+✨ Emotional and engaging design  
+📱 Mobile responsiveness  
+⚡ Fast performance  
+🎯 Storytelling and connection  
 
+👉 The goal: **inspire people and create impact**
 
-Entre na pasta do projeto:
+---
 
-cd nome-do-repositorio
+## 🧠 Purpose
 
+This project is part of **Bitstream Systems portfolio**, created to:
 
-Abra o arquivo principal:
+💼 Showcase real-world projects  
+🌍 Highlight social impact through technology  
+🚀 Demonstrate frontend development skills  
+🎯 Build meaningful digital experiences  
 
-Clique no index.html, ou
+---
 
-Abra via navegador.
+## 🛠️ Tech Stack
 
-📁 Estrutura de Pastas
-/encantados-fios
-├── index.html          # Página principal da loja
-├── catalogo.html       # (Opcional) Página dedicada ao catálogo
-├── style.css           # Estilos e responsividade
-├── script.js           # Lógica do catálogo e funcionalidades
-└── assets/
-    └── produtos/       # Fotos e imagens das peças de crochê
+- HTML5  
+- CSS3  
+- JavaScript  
 
-⚙️ Configuração e Manutenção
-1. Editar ou adicionar novos produtos
+---
 
-No arquivo script.js, os produtos são armazenados em um array:
+## 📱 Features
 
-const produtosCatalogo = [
-    {
-        id: 7,
-        nome: 'Amigurumi de Coelho',
-        categoria: 'amigurumi',
-        preco: 'R$ 85,00',
-        imagem: './assets/produtos/coelho.jpg',
-        descricao: 'Coelhinho fofo feito com linha 100% algodão.',
-    }
-];
+✅ Fully responsive design  
+✅ Clean and emotional UI  
+✅ Storytelling-focused layout  
+✅ Easy navigation  
+✅ Fast loading  
 
+---
 
-Basta adicionar ou editar objetos conforme necessário.
+## 🎯 What This Project Demonstrates
 
-2. Configurar o número de WhatsApp da artesã (Vitória)
-const WHATSAPP_NUMBER = '55XXXXXXXXXXX'; // Número real da Vitória com DDI
+This project highlights:
 
-3. Função de compra via WhatsApp
-window.buyProduct = function(nomeProduto, preco) {
-    const message = encodeURIComponent(
-        `Olá! Tenho interesse no item "${nomeProduto}" (${preco}) que vi na Encantados_Fios.`
-    );
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
-};
+🔥 Ability to build purpose-driven websites  
+🔥 Understanding of user emotion and engagement  
+🔥 Clean and professional frontend structure  
+🔥 Adaptability to different types of projects  
 
-💖 Feito com Carinho por Vitória
+---
 
-Cada peça da Encantados_Fios carrega o talento e o amor de Vitória, que transforma fios e agulhas em arte.
-O objetivo desta loja é trazer aconchego, beleza e originalidade para cada cliente que escolher uma de suas criações.
+## 💼 Business Value
+
+This type of website is ideal for:
+
+- ❤️ NGOs  
+- 🤝 Social projects  
+- 🌍 Non-profit organizations  
+- 🎗️ Charity initiatives  
+
+👉 Helps organizations:
+
+✔ Share their mission  
+✔ Reach more people  
+✔ Attract volunteers  
+✔ Increase donations  
+
+---
+
+## 🚀 Future Improvements
+
+- 📩 Donation system integration  
+- 📊 Impact dashboard  
+- 📍 Event management  
+- 🌐 Multi-language support  
+- 📢 Newsletter system  
+
+---
+
+## 👨‍💻 Developed by
+
+**Vitor Dutra Melo**  
+Founder of Bitstream Systems  
+
+💡 Building digital solutions for real businesses and real impact
+
+---
+
+## 📬 Contact
+
+Need a website like this?
+
+📩 Let’s build your project 🚀
 
